@@ -7,5 +7,28 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    
+    min-height: 100vh;
+}
+
+section{
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+label{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+button{
+    width: 145px;
+    height: 30px;
+    background-color: lightgreen;
+    color: white;
 }
